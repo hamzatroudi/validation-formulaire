@@ -1,0 +1,117 @@
+<html>
+    <head>
+            <meta charset="utf-8" />
+            <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+            <title>index2</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+            <title>Form validation</title>
+    </head>
+
+    <body>
+           <center><div class="alert alert-primary alert-dismissible fade show" id="alrt">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Warning!</strong> Complet your form...
+              </div>
+                  </center> 
+
+           
+                    <div class="row justify-content-center">
+                      <div class="col-lg-6 col-xl-3 col-md-4 col-sm-3 formulaire">
+                          <form name="f1" class="f1" id="f1">
+
+
+                               
+                                
+                                <p>
+                                <label class="label1" for="name" >Name:</label>
+                                <input type="text" name="name" id="name"  class="contenu" placeholder=" your name">
+                                </p>
+
+                                <p>
+                                        <label class="label1" for="lastname" >Last Name:</label>
+                                        <input type="text" name="lastname" id="lastname"  class="contenu" placeholder=" your last-name">
+                                        </p>
+
+                                <p>
+                                <label class="label1">Adress:</label>
+                                <input type="text" name="adress" class="contenu" id="adress" placeholder=" your adress">
+                                
+
+                                
+                               </p>
+
+                               <p>
+                                <label class="label1">E-mail Adress:</label>
+                                <input type="text" name="email" class="contenu" id="email" placeholder=" your email">
+                                <div class="alert alert-info alert-dismissible fade show alert2" id="alert2" >
+                                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                                        <strong>Insert a valid email</strong> !!!
+                                      </div>
+                               </p>
+
+                               <p>
+                                <label class="label1">Password:</label>
+                                <input type="password" name="password" class="contenu" id="password" placeholder=" your password">
+                                <div class="alert alert-info alert-dismissible fade show alert3" id="alert3" >
+                                  <button type="button" class="close" data-dismiss="alert">&times;</button>
+                                  <strong>Insert a valid password</strong> !!!
+                                </div>
+ 
+                               <p>
+                                <label class="label1">Comments:</label>
+                                <textarea class="contenu" id="texttt" placeholder=" your text"></textarea>
+                               </p>
+
+                               <p>
+                                <input type="button" class="btn1" name="btn1" value="send" id="btn1" onclick="validate();">
+                               </p>
+
+                               <p>
+                               <input type="button" class="btn2" name="btn2" value="Reset" id="btn2" onclick="clean();">
+                                </p>
+
+                        
+
+                          </form>
+
+                          
+                          
+                        
+                          
+                      </div>
+                  
+                    </div>
+          
+
+    
+
+
+
+   
+                    
+                   
+    </body>
+
+
+    <script src="script.js"></script>
+             
+
+
+
+
+
+
+
+
+
+
+</html>
